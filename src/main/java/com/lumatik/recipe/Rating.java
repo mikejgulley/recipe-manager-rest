@@ -1,4 +1,4 @@
-package com.lumatik.model;
+package com.lumatik.recipe;
 
 /**
  * Created by mikejgulley on 5/21/2017.
@@ -18,6 +18,6 @@ public enum Rating {
     }
 
     public String getRating() {
-        return rating != null ? rating : this.NONE.getRating();
+        return rating != null ? rating : NONE.getRating();
     }
 }

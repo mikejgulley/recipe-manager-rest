@@ -1,4 +1,4 @@
-package com.lumatik.model;
+package com.lumatik.recipe;
 
 /**
  * Created by mikejgulley on 5/21/2017.
@@ -16,6 +16,6 @@ public enum Difficulty {
     }
 
     public String getDifficulty() {
-        return difficulty != null ? difficulty : this.NONE.getDifficulty();
+        return difficulty != null ? difficulty : NONE.getDifficulty();
     }
 }
